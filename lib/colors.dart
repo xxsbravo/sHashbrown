@@ -6,3 +6,4 @@ import 'package:flutter/material.dart';
   Color primaryColor = Color(0xFF0088CC);
   Color secondaryColor = Color(0xFF00CC8D);
   Color dangerColor = Color(0xFFE80944);
+  Color glacier = Color(0xFFDFE5F0);

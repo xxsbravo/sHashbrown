@@ -14,6 +14,7 @@ class Shashbrown extends StatelessWidget {
       body: Container(
         width: MediaQuery.of(context).size.width, //Sets Container Width to screen width
         height: MediaQuery.of(context).size.height, //Sets Container Height to screen height
+        child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Align(
@@ -48,6 +49,7 @@ class Shashbrown extends StatelessWidget {
             ),
             new LowerBody(),
           ],
+        ),
         ),
       ),
     );
